@@ -2064,6 +2064,7 @@ public static final long /*int*/ sel_setTabViewType_ = sel_registerName("setTabV
 public static final long /*int*/ sel_setTag_ = sel_registerName("setTag:");
 public static final long /*int*/ sel_setTag_forSegment_ = sel_registerName("setTag:forSegment:");
 public static final long /*int*/ sel_setTarget_ = sel_registerName("setTarget:");
+public static final long /*int*/ sel_setTemplate_ = sel_registerName("setTemplate:");
 public static final long /*int*/ sel_setTextColor_ = sel_registerName("setTextColor:");
 public static final long /*int*/ sel_setTextStorage_ = sel_registerName("setTextStorage:");
 public static final long /*int*/ sel_setTitle_ = sel_registerName("setTitle:");

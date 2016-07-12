@@ -597,6 +597,11 @@ void updateImage () {
 		 * if the NSImage object's content has changed since it was last set
 		 * into the view.  The workaround is to explicitly redraw the view.
 		 */
+		NSImage nsImage = (NSImage)(image.handle);
+
+		if (!highlight)
+			nsImage.setTemplate(true);
+
 		view.setImage (image.handle);
 		view.setNeedsDisplay (true);
 		if (visible) {
