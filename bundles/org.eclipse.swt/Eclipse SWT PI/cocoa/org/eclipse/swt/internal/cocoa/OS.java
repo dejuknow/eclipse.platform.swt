@@ -1867,6 +1867,7 @@ public static final long sel_setTabStops_ = Selector.sel_setTabStops_.value;
 public static final long sel_setTabViewType_ = Selector.sel_setTabViewType_.value;
 public static final long sel_setTag_ = Selector.sel_setTag_.value;
 public static final long sel_setTarget_ = Selector.sel_setTarget_.value;
+public static final long sel_setTemplate_ = Selector.sel_setTemplate_.value;
 public static final long sel_setTextColor_ = Selector.sel_setTextColor_.value;
 public static final long sel_setTextStorage_ = Selector.sel_setTextStorage_.value;
 public static final long sel_setTitle_ = Selector.sel_setTitle_.value;

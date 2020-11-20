@@ -100,6 +100,10 @@ public void setSize(NSSize size) {
 	OS.objc_msgSend(this.id, OS.sel_setSize_, size);
 }
 
+public void setTemplate(boolean template) {
+	OS.objc_msgSend(this.id, OS.sel_setTemplate_, template);
+}
+
 public NSSize size() {
 	NSSize result = new NSSize();
 	OS.objc_msgSend_stret(result, this.id, OS.sel_size);
